@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Open+Sans:wght@400;700&family=Shantell+Sans&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Merienda", cursive;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav button {
+  width: 100px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  display: flex;
+  font-size: 200px;
+}
