@@ -25,8 +25,8 @@ export default class Element {
     let DOMelement = document.createElement(this.newElement);
 
     //set attributes
-    for (const k of Object.keys(this.setAttribute)) {
-      DOMelement.setAttribute(k, this.setAttribute[k]);
+    for (const k of Object.keys(this.attributes)) {
+      DOMelement.setAttribute(k, this.attributes[k]);
     }
     //build children
     if (this.innerText === undefined) {

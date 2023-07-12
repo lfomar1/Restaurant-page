@@ -4,7 +4,7 @@ function loadHome() {
   const homeElement = new Element("div");
   homeElement.setAttribute({ id: "home-tab", class: "home-tab centered" });
   homeElement.appendChild(
-    new Element("h1").setInnerText("Welcome to the restaurant")
+    new Element("h1").setInnerText("Welcome to the Bakery")
   );
   homeElement.appendChild(
     new Element("img").setAttribute({ id: "tab-img", class: "home-img" })
@@ -15,7 +15,7 @@ function loadHome() {
         class: "description",
       })
       .setInnerText(
-        "This is one the best restaurants around the globe, hopefully you have a good taste"
+        "This is one the best bakeries  around the globe, hopefully you have a good taste!"
       )
   );
   homeElement.appendChild(
