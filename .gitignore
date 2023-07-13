@@ -2,7 +2,6 @@ node_modules/
 creds.js
 node_modules
 package-lock.json
-dist/main.js
 .vscode
 
 # Logs
